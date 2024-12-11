@@ -74,8 +74,8 @@ const Portfolio = () => {
     <p className="text-gray-600 leading-relaxed">
       I'm a Software Engineer with a B.Sc. in Artificial Intelligence (GPA:
       2.84/4.0) from Faculty of Computers and Artificial Intelligence, Cairo
-      University (2020-2024). I specialize in backend development and DevOps
-      basics, with experience in building scalable applications and implementing
+      University (2020-2024). I specialize in backend development and DevOps,
+      with experience in building scalable applications and implementing
       efficient CI/CD pipelines.
     </p>
   );
@@ -181,6 +181,7 @@ const Portfolio = () => {
                 <a
                   href="mailto:fatmaahmed222003@gmail.com"
                   className="text-gray-600 hover:text-blue-500"
+                  title="Email me"
                 >
                   <Mail size={24} />
                 </a>
@@ -276,6 +277,17 @@ const Portfolio = () => {
               Contact Me
             </h2>
             <div className="bg-white rounded-lg shadow-md p-8">
+              <div className="mb-8 text-center">
+                <p className="text-gray-600">
+                  Feel free to reach out to me at:{" "}
+                  <a
+                    href="mailto:fatmaahmed222003@gmail.com"
+                    className="text-blue-600 hover:text-blue-800"
+                  >
+                    fatmaahmed222003@gmail.com
+                  </a>
+                </p>
+              </div>
               <form className="space-y-6">
                 <div>
                   <label className="block text-gray-700 mb-2" htmlFor="name">
