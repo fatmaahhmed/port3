@@ -1,6 +1,6 @@
 import "./index.css";
 
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio.jsx";
 import React from "react";
 import ReactDOM from "react-dom/client";
 
